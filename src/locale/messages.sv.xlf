@@ -207,13 +207,13 @@
     <unit id="CollectionTitle.None">
       <segment state="initial">
         <source>Titelbladet kunde inte laddas.</source>
-        <target>Titelbladet kunde inte laddas.</target>
+        <target>Inledningen kunde inte laddas.</target>
       </segment>
     </unit>
     <unit id="CollectionTitle.TitlePage">
       <segment state="initial">
         <source>Titelblad</source>
-        <target>Titelblad</target>
+        <target>Inledning</target>
       </segment>
     </unit>
     <unit id="Commentary.Commentary">
@@ -909,7 +909,7 @@
     <unit id="MainSideMenu.CollectionsGroup1">
       <segment state="initial">
         <source>Innehåll</source>
-        <target>Innehåll</target>
+        <target>Textarkiv</target>
       </segment>
     </unit>
     <unit id="MainSideMenu.CollectionsGroup2">
@@ -939,7 +939,7 @@
     <unit id="MainSideMenu.Ebooks">
       <segment state="initial">
         <source>E-böcker</source>
-        <target>E-böcker</target>
+        <target>Böcker</target>
       </segment>
     </unit>
     <unit id="MainSideMenu.Home">
@@ -975,7 +975,7 @@
     <unit id="MainSideMenu.MediaCollections">
       <segment state="initial">
         <source>Bildbank</source>
-        <target>Bildbank</target>
+        <target>Fotografier</target>
       </segment>
     </unit>
     <unit id="Manuscripts.ChangeManuscript">
@@ -1023,7 +1023,7 @@
     <unit id="MediaCollection.AllMediaCollections">
       <segment state="initial">
         <source>Alla bildsamlingar</source>
-        <target>Alla bildsamlingar</target>
+        <target>Alla album</target>
       </segment>
     </unit>
     <unit id="MediaCollection.ClearFilters">
@@ -1035,7 +1035,7 @@
     <unit id="MediaCollection.Collections">
       <segment state="initial">
         <source>samlingar</source>
-        <target>samlingar</target>
+        <target>album</target>
       </segment>
     </unit>
     <unit id="MediaCollection.FilterKeyword">
@@ -1059,7 +1059,7 @@
     <unit id="MediaCollection.GenericAltText">
       <segment state="initial">
         <source>Galleribild</source>
-        <target>Galleribild</target>
+        <target>Fotografi</target>
       </segment>
     </unit>
     <unit id="MediaCollection.Images">
@@ -1071,7 +1071,7 @@
     <unit id="MediaCollection.MediaCollections">
       <segment state="initial">
         <source>Bildsamlingar</source>
-        <target>Bildsamlingar</target>
+        <target>Alla album</target>
       </segment>
     </unit>
     <unit id="MediaCollection.Showing">
@@ -1497,25 +1497,25 @@
     <unit id="Site.MetaDescription.Home">
       <segment state="initial">
         <source>En generell beskrivning av webbplatsen för sökmotorer.</source>
-        <target>En generell beskrivning av webbplatsen för sökmotorer.</target>
+        <target>Den finlandssvenka antropologen Hilma Granqvists monografier, fotografier och manuskript.</target>
       </segment>
     </unit>
     <unit id="Site.Subtitle">
       <segment state="initial">
         <source>Webbplatsens undertitel</source>
-        <target>Webbplatsens undertitel</target>
+        <target></target>
       </segment>
     </unit>
     <unit id="Site.Title">
       <segment state="initial">
         <source>Webbplatsens titel</source>
-        <target>Webbplatsens titel</target>
+        <target>Hilma Granqvists arkiv</target>
       </segment>
     </unit>
     <unit id="TopMenu.About">
       <segment state="initial">
         <source>Om utgåvan</source>
-        <target>Om utgåvan</target>
+        <target>Om</target>
       </segment>
     </unit>
     <unit id="TopMenu.AriaLabel">

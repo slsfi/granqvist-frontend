@@ -12,9 +12,13 @@
       "i18n": {
         "sourceLocale": "aa",
         "locales": {
-          "fi": {
-            "baseHref": "fi/",
-            "translation": "src/locale/messages.fi.xlf"
+          "ar": {
+            "baseHref": "ar/",
+            "translation": "src/locale/messages.ar.xlf"
+          },
+          "en": {
+            "baseHref": "en/",
+            "translation": "src/locale/messages.en.xlf"
           },
           "sv": {
             "baseHref": "sv/",
@@ -26,7 +30,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "localize": ["sv", "fi"],
+            "localize": ["sv", "en", "ar"],
             "outputPath": "dist/app/browser",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -101,10 +105,16 @@
             "ci": {
               "progress": false
             },
-            "fi": {
+            "ar": {
               "deleteOutputPath": false,
               "localize": [
-                "fi"
+                "ar"
+              ]
+            },
+            "en": {
+              "deleteOutputPath": false,
+              "localize": [
+                "en"
               ]
             },
             "sv": {
@@ -125,8 +135,11 @@
             "development": {
               "buildTarget": "app:build:development"
             },
-            "fi": {
-              "buildTarget": "app:build:development,fi"
+            "ar": {
+              "buildTarget": "app:build:development,ar"
+            },
+            "en": {
+              "buildTarget": "app:build:development,en"
             },
             "sv": {
               "buildTarget": "app:build:development,sv"
@@ -141,17 +154,17 @@
             "format": "xlf2",
             "outputPath": "src/locale",
             "targetFiles": [
-              "messages.fi.xlf",
-              "messages.sv.xlf",
-              "messages.en.xlf"
+              "messages.ar.xlf",
+              "messages.en.xlf",
+              "messages.sv.xlf"
             ]
           },
           "configurations": {
-            "fi": {
+            "ar": {
               "outputPath": "src/locale/",
-              "outFile": "messages.fi.xlf",
+              "outFile": "messages.ar.xlf",
               "i18nFormat": "xlf2",
-              "i18nLocale": "fi"
+              "i18nLocale": "ar"
             },
             "sv": {
               "outputPath": "src/locale/",
@@ -232,15 +245,21 @@
               "buildOptimizer": false
             },
             "ci": {},
-            "sv": {
+            "ar": {
               "localize": [
-                "sv"
+                "ar"
               ],
               "deleteOutputPath": false
             },
-            "fi": {
+            "en": {
               "localize": [
-                "fi"
+                "en"
+              ],
+              "deleteOutputPath": false
+            },
+            "sv": {
+              "localize": [
+                "sv"
               ],
               "deleteOutputPath": false
             }
@@ -277,17 +296,25 @@
               "browserTarget": "app:build:development",
               "serverTarget": "app:server:development"
             },
-            "sv": {
-              "browserTarget": "app:build:production,sv",
-              "serverTarget": "app:server:production,sv",
+            "ar": {
+              "browserTarget": "app:build:production,ar",
+              "serverTarget": "app:server:production,ar",
               "routes": [
                 "/"
               ],
               "discoverRoutes": false
             },
-            "fi": {
-              "browserTarget": "app:build:production,fi",
-              "serverTarget": "app:server:production,fi",
+            "en": {
+              "browserTarget": "app:build:production,en",
+              "serverTarget": "app:server:production,en",
+              "routes": [
+                "/"
+              ],
+              "discoverRoutes": false
+            },
+            "sv": {
+              "browserTarget": "app:build:production,sv",
+              "serverTarget": "app:server:production,sv",
               "routes": [
                 "/"
               ],
