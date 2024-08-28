@@ -188,3 +188,110 @@
   }
 
 */
+
+/* Added custom variables */
+:root {
+  --custom-action-color: #725d4b;
+}
+
+/* Override CSS variables */
+:root {
+  --secondary-color:                     #e6e1d8;
+  --main-background-color:               #ecebe4;
+  --main-background-accent-color:        #dddad5;
+  --button-background-color:             var(--custom-action-color);
+  --fab-button-primary-background-color: var(--custom-action-color);
+  --outline-button-color:                var(--custom-action-color);
+}
+
+ion-app[class][class] {
+  --side-menu-divider-color:                       var(--main-background-accent-color);
+  --side-menu-hover-color:                       #538494;
+  --side-menu-collection-title-background-color: #dad1c7;
+}
+
+page-index[class][class] {
+  --list-heading-background-color: var(--secondary-color);
+}
+
+/* Custom, project specific styles */
+
+/*
+  Fix text direction for English and icons on the Arabic version since
+  the Arabic version is really a mix of English, Arabic and a bit Swedish.
+*/
+html[lang="ar"] {
+  direction: ltr;
+
+  ion-select.select-rtl::part(icon) {
+    left: unset;
+    right: var(--padding-start, 0);
+  }
+
+  ion-icon.flip-rtl {
+    transform: scaleX(-1);
+  }
+}
+
+/* Cookiebanner */
+a.cky-banner-element {
+  cursor: pointer;
+  text-decoration: underline;
+}
+#cky-consent,
+#cky-settings-popup {
+  font-family: var(--font-stack-app-base);
+}
+
+page-home {
+  .text-content div.site-presentation.markdown.markdown {
+    max-width: 700px;
+
+    h2 {
+      text-align: center;
+    }
+  }
+}
+
+page-elastic-search {
+  .info.markdown {
+    /* Sökinstruktionerna i avancerade sökningen */
+    details {
+      padding: .5em .5em 0;
+
+      ul li {
+        line-height: 1.5;
+      }
+
+      ul li + li {
+        padding-top: 0.75em;
+      }
+    }
+
+    summary {
+      font-weight: bold;
+      margin: -.5em -.5em 0;
+      padding: .5em;
+    }
+
+    details[open] {
+      border-bottom: 1px solid #aaa;
+      padding: .5em;
+
+      summary {
+        border-bottom: 1px solid #aaa;
+        margin-bottom: .5em;
+      }
+    }
+
+    .query_example {
+      background-color: #fdfdfd;
+      border: 1px solid var(--button-background-color);
+      border-radius: 3px;
+      color: var(--button-background-color);
+      font-family: monospace;
+      font-size: 0.889em;
+      padding: 0.125em 0.25em;
+    }
+  }
+}
