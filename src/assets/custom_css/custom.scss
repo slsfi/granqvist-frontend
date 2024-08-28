@@ -189,10 +189,25 @@
 
 */
 
+/* Added custom variables */
+:root {
+  --custom-action-color: #725d4b;
+}
+
 /* Override CSS variables */
 :root {
-  --secondary-color:          #e6e1d8;
-  --main-background-color:    #ecebe4;
+  --secondary-color:                     #e6e1d8;
+  --main-background-color:               #ecebe4;
+  --main-background-accent-color:        #dddad5;
+  --button-background-color:             var(--custom-action-color);
+  --fab-button-primary-background-color: var(--custom-action-color);
+  --outline-button-color:                var(--custom-action-color);
+}
+
+ion-app[class][class] {
+  --side-menu-divider-color:                       var(--main-background-accent-color);
+  --side-menu-hover-color:                       #538494;
+  --side-menu-collection-title-background-color: #dad1c7;
 }
 
 page-index[class][class] {
@@ -200,6 +215,23 @@ page-index[class][class] {
 }
 
 /* Custom, project specific styles */
+
+/*
+  Fix text direction for English and icons on the Arabic version since
+  the Arabic version is really a mix of English, Arabic and a bit Swedish.
+*/
+html[lang="ar"] {
+  direction: ltr;
+
+  ion-select.select-rtl::part(icon) {
+    left: unset;
+    right: var(--padding-start, 0);
+  }
+
+  ion-icon.flip-rtl {
+    transform: scaleX(-1);
+  }
+}
 
 /* Cookiebanner */
 a.cky-banner-element {
@@ -212,16 +244,9 @@ a.cky-banner-element {
 }
 
 page-home {
-  /* Reduce banner height on narrow screens */
-  @media screen and (max-width: 1100px) {
-    div.banner.banner {
-      height: 35%;
-    }
-  }
-
   .text-content div.site-presentation.markdown.markdown {
     max-width: 700px;
-    text-align: left;
+    text-align: start;
 
     h2 {
       text-align: center;
@@ -269,11 +294,5 @@ page-elastic-search {
       font-size: 0.889em;
       padding: 0.125em 0.25em;
     }
-  }
-}
-
-page-media-collection {
-  .filters-wrapper ion-select.md.md {
-    max-width: 28%;
   }
 }

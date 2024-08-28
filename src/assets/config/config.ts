@@ -14,7 +14,7 @@ export const config: Config = {
         { code: "ar", label: "Arabic/English", region: "AR" }
       ],
       defaultLanguage: "sv",
-      multilingualCollectionTableOfContents: false,
+      multilingualCollectionTableOfContents: true,
       multilingualReadingTextLanguages: [],
       multilingualNamedEntityData: false
     },
@@ -61,81 +61,86 @@ export const config: Config = {
   },
   ebooks: [
     {
+      collectionId: 147,
       title: "Birth and Childhood Among the Arabs",
       filename: "granqvist-birth-and-childhood-among-the-arabs.pdf",
-      externalFileURL: "",
+      externalFileURL: "https://api.sls.fi/digitaledition/granqvist/files/147/pdf/granqvist-birth-and-childhood-among-the-arabs.pdf/true",
       coverURL: "assets/images/covers/books/granqvist_birth_and_childhood_among_the_arabs.jpg",
       downloadOptions: [
         {
-          url: "https://api.sls.fi/digitaledition/granqvist/files/147/pdf/147_11675_Birth_and_Childhood.pdf/granqvist-birth-and-childhood-among-the-arabs.pdf",
+          url: "https://api.sls.fi/digitaledition/granqvist/files/147/pdf/granqvist-birth-and-childhood-among-the-arabs.pdf/true",
           label: "PDF"
         },
         {
-          url: "https://api.sls.fi/digitaledition/granqvist/files/147/epub/granqvist-birth-and-childhood-among-the-arabs.epub/147.epub",
+          url: "https://api.sls.fi/digitaledition/granqvist/files/147/epub/granqvist-birth-and-childhood-among-the-arabs.epub/true",
           label: "EPUB"
         }
       ]
     },
     {
+      collectionId: 148,
       title: "Child Problems Among the Arabs",
       filename: "granqvist-child-problems-among-the-arabs.pdf",
-      externalFileURL: "",
+      externalFileURL: "https://api.sls.fi/digitaledition/granqvist/files/148/pdf/granqvist-child-problems-among-the-arabs.pdf/true",
       coverURL: "assets/images/covers/books/granqvist_child_problems_among_the_arabs.jpg",
       downloadOptions: [
         {
-          url: "https://api.sls.fi/digitaledition/granqvist/files/148/pdf/148_11676_Child_Problems.pdf/granqvist-child-problems-among-the-arabs.pdf",
+          url: "https://api.sls.fi/digitaledition/granqvist/files/148/pdf/granqvist-child-problems-among-the-arabs.pdf/true",
           label: "PDF"
         },
         {
-          url: "https://api.sls.fi/digitaledition/granqvist/files/148/epub/granqvist-child-problems-among-the-arabs.epub/148.epub",
+          url: "https://api.sls.fi/digitaledition/granqvist/files/148/epub/granqvist-child-problems-among-the-arabs.epub/true",
           label: "EPUB"
         }
       ]
     },
     {
+      collectionId: 30,
       title: "Marriage Conditions in a Palestinian Village I",
       filename: "granqvist-marriage-conditions-in-a-palestinian-village-1.pdf",
-      externalFileURL: "",
+      externalFileURL: "https://api.sls.fi/digitaledition/granqvist/files/30/pdf/granqvist-marriage-conditions-in-a-palestinian-village-1.pdf/true",
       coverURL: "assets/images/covers/books/granqvist_marriage_conditions_in_a_palestinian_village_1.jpg",
       downloadOptions: [
         {
-          url: "https://api.sls.fi/digitaledition/granqvist/files/30/pdf/30_11672_Marriage_Conditions_1.pdf/granqvist-marriage-conditions-in-a-palestinian-village-1.pdf",
+          url: "https://api.sls.fi/digitaledition/granqvist/files/30/pdf/granqvist-marriage-conditions-in-a-palestinian-village-1.pdf/true",
           label: "PDF"
         },
         {
-          url: "https://api.sls.fi/digitaledition/granqvist/files/30/epub/granqvist-marriage-conditions-in-a-palestinian-village-1.epub/30.epub",
+          url: "https://api.sls.fi/digitaledition/granqvist/files/30/epub/granqvist-marriage-conditions-in-a-palestinian-village-1.epub/true",
           label: "EPUB"
         }
       ]
     },
     {
+      collectionId: 31,
       title: "Marriage Conditions in a Palestinian Village II",
       filename: "granqvist-marriage-conditions-in-a-palestinian-village-2.pdf",
-      externalFileURL: "",
+      externalFileURL: "https://api.sls.fi/digitaledition/granqvist/files/31/pdf/granqvist-marriage-conditions-in-a-palestinian-village-2.pdf/true",
       coverURL: "assets/images/covers/books/granqvist_marriage_conditions_in_a_palestinian_village_2.jpg",
       downloadOptions: [
         {
-          url: "https://api.sls.fi/digitaledition/granqvist/files/31/pdf/31_11673_Marriage_Conditions_2.pdf/granqvist-marriage-conditions-in-a-palestinian-village-2.pdf",
+          url: "https://api.sls.fi/digitaledition/granqvist/files/31/pdf/granqvist-marriage-conditions-in-a-palestinian-village-2.pdf/true",
           label: "PDF"
         },
         {
-          url: "https://api.sls.fi/digitaledition/granqvist/files/31/epub/granqvist-marriage-conditions-in-a-palestinian-village-2.epub/31.epub",
+          url: "https://api.sls.fi/digitaledition/granqvist/files/31/epub/granqvist-marriage-conditions-in-a-palestinian-village-2.epub/true",
           label: "EPUB"
         }
       ]
     },
     {
+      collectionId: 149,
       title: "Muslim Death and Burial",
       filename: "granqvist-muslim-death-and-burial.pdf",
-      externalFileURL: "",
+      externalFileURL: "https://api.sls.fi/digitaledition/granqvist/files/149/pdf/granqvist-muslim-death-and-burial.pdf/true",
       coverURL: "assets/images/covers/books/granqvist_muslim_death_and_burial.jpg",
       downloadOptions: [
         {
-          url: "https://api.sls.fi/digitaledition/granqvist/files/149/pdf/149_11677_Death_Burial.pdf/granqvist-muslim-death-and-burial.pdf",
+          url: "https://api.sls.fi/digitaledition/granqvist/files/149/pdf/granqvist-muslim-death-and-burial.pdf/true",
           label: "PDF"
         },
         {
-          url: "https://api.sls.fi/digitaledition/granqvist/files/149/epub/granqvist-muslim-death-and-burial.epub/149.epub",
+          url: "https://api.sls.fi/digitaledition/granqvist/files/149/epub/granqvist-muslim-death-and-burial.epub/true",
           label: "EPUB"
         }
       ]
@@ -148,7 +153,7 @@ export const config: Config = {
     elasticSearch: {
       enableFilters: true,
       enableSortOptions: false,
-      filterGroupsOpenByDefault: [],
+      filterGroupsOpenByDefault: ["Collection"],
       hitsPerPage: 15,
       indices: ["granqvist"],
       openReadingTextWithComments: false,
@@ -169,7 +174,15 @@ export const config: Config = {
         }
       ],
       additionalSourceFields: [],
-      aggregations: {}
+      aggregations: {
+        Collection: {
+          terms: {
+            field: "publication_data.collection_name.keyword",
+            size: 10,
+            order: {_key: "asc"}
+          }
+        }
+      }
     },
     foreword: {
       showURNButton: true,
@@ -279,7 +292,7 @@ export const config: Config = {
     },
     title: {
       loadContentFromMarkdown: true,
-      showURNButton: false,
+      showURNButton: true,
       showViewOptionsButton: false
     }
   },
@@ -332,7 +345,7 @@ export const config: Config = {
     topMenu: {
       showAboutButton: true,
       showContentButton: true,
-      showElasticSearchButton: false,
+      showElasticSearchButton: true,
       showURNButton: false,
       showLanguageButton: true,
       showSiteLogo: true,

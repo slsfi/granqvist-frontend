@@ -471,7 +471,7 @@
     <unit id="ElasticSearch.Collection">
       <segment state="initial">
         <source>Delutgåva</source>
-        <target>Delutgåva</target>
+        <target>Bok</target>
       </segment>
     </unit>
     <unit id="ElasticSearch.CommentaryTo">
@@ -489,7 +489,7 @@
     <unit id="ElasticSearch.Found">
       <segment state="initial">
         <source>Texter med sökträffar:</source>
-        <target>Texter med sökträffar:</target>
+        <target>Boksidor med sökträffar:</target>
       </segment>
     </unit>
     <unit id="ElasticSearch.Genre">
@@ -573,13 +573,13 @@
     <unit id="ElasticSearch.SearchEdition">
       <segment state="initial">
         <source>Sök i utgåvan</source>
-        <target>Sök i utgåvan</target>
+        <target>Sök i Granqvists böcker</target>
       </segment>
     </unit>
     <unit id="ElasticSearch.ShowAllHitHighlights">
       <segment state="initial">
         <source>Visa alla träffar i texten</source>
-        <target>Visa alla träffar i texten</target>
+        <target>Visa alla träffar på sidan</target>
       </segment>
     </unit>
     <unit id="ElasticSearch.ShowFacets">
@@ -1497,7 +1497,7 @@
     <unit id="Site.MetaDescription.Home">
       <segment state="initial">
         <source>En generell beskrivning av webbplatsen för sökmotorer.</source>
-        <target>Den finlandssvenka antropologen Hilma Granqvists monografier, fotografier och manuskript.</target>
+        <target>Den finlandssvenka antropologen Hilma Granqvists böcker, fotografier och manuskript.</target>
       </segment>
     </unit>
     <unit id="Site.Subtitle">
