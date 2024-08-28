@@ -8,9 +8,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## [Unreleased]
 
+
+
+## [1.5.1-production.1] – 2024-08-28
+
 ### Changed
 
-- Set up project files, config, custom CSS and translations for production site.
+- Set up project files, config, custom CSS and translations for production site. ([e450117](https://github.com/slsfi/granqvist-frontend/commit/e4501172bb1bb076d7e53ea3958c60cf978f9545), [da4a133](https://github.com/slsfi/granqvist-frontend/commit/da4a1330c156e6caa066d019ab8750db6f1bad17), [e59443d](https://github.com/slsfi/granqvist-frontend/commit/e59443da6209589e8a2fdf6bda393a58af05b423), [1dd9468](https://github.com/slsfi/granqvist-frontend/commit/1dd9468559074f85d9265b6ec0677f8f041566c7))
+- Merge release [`v1.5.1`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/1.5.1) from upstream, original repository into `production` branch. ([ee2fd85](https://github.com/slsfi/granqvist-frontend/commit/ee2fd851dc57ad06d886fbed98e7e708cb8190e7))
 
 
 
@@ -458,3 +463,5 @@ siteLogoDimensions: {
 [1.0.2]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.1...v1.0.2
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
+
+[1.5.1-production.1]: https://github.com/slsfi/granqvist-frontend/releases/tag/1.5.1-production.1
