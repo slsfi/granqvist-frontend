@@ -23,12 +23,16 @@ export const config: Config = {
       enabled: true,
       image: {
         sv: {
-          altText: "alt-text",
-          URL: "assets/images/home-page-banner.jpg"
+          altText: "Svartvitt foto av fem personer som arbetar utomhus på en äng. Fyra mörkhyade personer i bakgrunden böjer sig ner med ryggarna mot kameran. En ljushyad kvinna i hatt i förgrunden ler in i kameran.",
+          URL: "assets/images/open-graph/granqvist_artas_surroundings_1930-1931-og.jpg"
         },
-        fi: {
-          altText: "alt-teksti",
-          URL: "assets/images/home-page-banner.jpg"
+        en: {
+          altText: "Black and white photo of five people working outdoors in a meadow. Four dark-skinned people in the background are bent over with their backs to the camera. A light-skinned woman in a hat in the foreground is smiling at the camera.",
+          URL: "assets/images/open-graph/granqvist_artas_surroundings_1930-1931-og.jpg"
+        },
+        ar: {
+          altText: "Black and white photo of five people working outdoors in a meadow. Four dark-skinned people in the background are bent over with their backs to the camera. A light-skinned woman in a hat in the foreground is smiling at the camera.",
+          URL: "assets/images/open-graph/granqvist_artas_surroundings_1930-1931-og.jpg"
         }
       }
     },
