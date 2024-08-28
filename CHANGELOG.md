@@ -8,9 +8,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+
+
+## [1.5.1-production.2] – 2024-08-28
+
 ### Fixed
 
-- Add missing translations.
+- Add missing translations. ([86bb3d4](https://github.com/slsfi/granqvist-frontend/commit/86bb3d470508476891389c756d928dc9a56fdd00))
 
 
 
@@ -468,4 +472,5 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[1.5.1-production.2]: https://github.com/slsfi/granqvist-frontend/compare/1.5.1-production.1...1.5.1-production.2
 [1.5.1-production.1]: https://github.com/slsfi/granqvist-frontend/releases/tag/1.5.1-production.1
