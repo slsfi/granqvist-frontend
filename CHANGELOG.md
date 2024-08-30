@@ -10,20 +10,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 
 
-## [1.5.1-production.2] – 2024-08-28
-
-### Fixed
-
-- Add missing translations. ([86bb3d4](https://github.com/slsfi/granqvist-frontend/commit/86bb3d470508476891389c756d928dc9a56fdd00))
-
-
-
-## [1.5.1-production.1] – 2024-08-28
+## [1.5.2-production.1] – 2024-08-30
 
 ### Changed
 
-- Set up project files, config, custom CSS and translations for production site. ([e450117](https://github.com/slsfi/granqvist-frontend/commit/e4501172bb1bb076d7e53ea3958c60cf978f9545), [da4a133](https://github.com/slsfi/granqvist-frontend/commit/da4a1330c156e6caa066d019ab8750db6f1bad17), [e59443d](https://github.com/slsfi/granqvist-frontend/commit/e59443da6209589e8a2fdf6bda393a58af05b423), [1dd9468](https://github.com/slsfi/granqvist-frontend/commit/1dd9468559074f85d9265b6ec0677f8f041566c7))
-- Merge release [`v1.5.1`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/1.5.1) from upstream, original repository into `production` branch. ([ee2fd85](https://github.com/slsfi/granqvist-frontend/commit/ee2fd851dc57ad06d886fbed98e7e708cb8190e7))
+- Merge release [`v1.5.2`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/1.5.2) from upstream, original repository into `production` branch. ([87b95b7](https://github.com/slsfi/granqvist-frontend/commit/87b95b736de3fe12d11d7ecae26e611efede4bb1))
 
 
 
@@ -38,6 +29,23 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 - Dependabot configuration: allow security updates of `@angular` packages. ([066d45e](https://github.com/slsfi/digital-edition-frontend-ng/commit/066d45e931ec96db562d7a26de31451c4e4fe7f0))
 - Deps: update `@angular` to 18.2.2. ([2ff2b72](https://github.com/slsfi/digital-edition-frontend-ng/commit/2ff2b72ab4a3d50750d1396f71bb8713d1652d0e))
 - Deps (transitive): update `micromatch` to 4.0.8. ([a74b1d7](https://github.com/slsfi/digital-edition-frontend-ng/commit/a74b1d793c8d0e571d3b74669416ddec4c6d06d4))
+
+
+
+## [1.5.1-production.2] – 2024-08-28
+
+### Fixed
+
+- Add missing translations. ([86bb3d4](https://github.com/slsfi/granqvist-frontend/commit/86bb3d470508476891389c756d928dc9a56fdd00))
+
+
+
+## [1.5.1-production.1] – 2024-08-28
+
+### Changed
+
+- Set up project files, config, custom CSS and translations for production site. ([e450117](https://github.com/slsfi/granqvist-frontend/commit/e4501172bb1bb076d7e53ea3958c60cf978f9545), [da4a133](https://github.com/slsfi/granqvist-frontend/commit/da4a1330c156e6caa066d019ab8750db6f1bad17), [e59443d](https://github.com/slsfi/granqvist-frontend/commit/e59443da6209589e8a2fdf6bda393a58af05b423), [1dd9468](https://github.com/slsfi/granqvist-frontend/commit/1dd9468559074f85d9265b6ec0677f8f041566c7))
+- Merge release [`v1.5.1`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/1.5.1) from upstream, original repository into `production` branch. ([ee2fd85](https://github.com/slsfi/granqvist-frontend/commit/ee2fd851dc57ad06d886fbed98e7e708cb8190e7))
 
 
 
@@ -487,5 +495,6 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[1.5.2-production.1]: https://github.com/slsfi/granqvist-frontend/compare/1.5.1-production.2...1.5.2-production.1
 [1.5.1-production.2]: https://github.com/slsfi/granqvist-frontend/compare/1.5.1-production.1...1.5.1-production.2
 [1.5.1-production.1]: https://github.com/slsfi/granqvist-frontend/releases/tag/1.5.1-production.1
