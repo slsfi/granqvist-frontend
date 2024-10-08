@@ -10,11 +10,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 
 
-## [1.5.2-production.1] – 2024-08-30
+## [1.5.3-production.1] – 2024-10-08
 
 ### Changed
 
-- Merge release [`v1.5.2`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/1.5.2) from upstream, original repository into `production` branch. ([87b95b7](https://github.com/slsfi/granqvist-frontend/commit/87b95b736de3fe12d11d7ecae26e611efede4bb1))
+- Merge release [`v1.5.3`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/1.5.3) from upstream, original repository into `production` branch. ([84317ac](https://github.com/slsfi/granqvist-frontend/commit/84317ac72ccb0bd2b528d70a4acc7ed3573a4e2e))
 
 
 
@@ -28,6 +28,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 - Deps (dev): update `@types/node` to 20.16.9. ([1ec69f7](https://github.com/slsfi/digital-edition-frontend-ng/commit/1ec69f7261474461b673d54fc6ea3f7b7c2f3ae4))
 - Deps (dev): update `jasmine-core` to 5.3.0. ([7d72e39](https://github.com/slsfi/digital-edition-frontend-ng/commit/7d72e39287ed5a3af06f87eecf8e76069c49826d))
 - Deps (transitive): update `browser-sync` to 3.0.3 and `serve-static` to 1.16.2. ([04a421d](https://github.com/slsfi/digital-edition-frontend-ng/commit/04a421dad2ac9239921712bed85ac988b68f9bf1))
+
+
+
+## [1.5.2-production.1] – 2024-08-30
+
+### Changed
+
+- Merge release [`v1.5.2`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/1.5.2) from upstream, original repository into `production` branch. ([87b95b7](https://github.com/slsfi/granqvist-frontend/commit/87b95b736de3fe12d11d7ecae26e611efede4bb1))
 
 
 
@@ -509,6 +517,7 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[1.5.3-production.1]: https://github.com/slsfi/granqvist-frontend/compare/1.5.2-production.1...1.5.3-production.1
 [1.5.2-production.1]: https://github.com/slsfi/granqvist-frontend/compare/1.5.1-production.2...1.5.2-production.1
 [1.5.1-production.2]: https://github.com/slsfi/granqvist-frontend/compare/1.5.1-production.1...1.5.1-production.2
 [1.5.1-production.1]: https://github.com/slsfi/granqvist-frontend/releases/tag/1.5.1-production.1
