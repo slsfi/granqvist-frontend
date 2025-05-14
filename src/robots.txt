@@ -1,8 +1,12 @@
 User-agent: *
 Disallow: /search
 Disallow: /sv/search
+Disallow: /en/search
+Disallow: /ar/search
 Disallow: /index/
 Disallow: /sv/index/
+Disallow: /en/index/
+Disallow: /ar/index/
 Crawl-delay: 10
 
 Sitemap: https://granqvist.sls.fi/sitemap.txt
