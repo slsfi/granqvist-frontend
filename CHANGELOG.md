@@ -8,10 +8,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+
+
+## [1.6.4-production.1] – 2025-05-14
+
 ### Changed
 
-- Update disallow rules in `robots.txt`.
-- Update to base version [`1.6.4`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/1.6.4) from upstream, original repository.
+- Update disallow rules in `robots.txt`. ([a4b27a2](https://github.com/slsfi/granqvist-frontend/commit/a4b27a261c831c3736e079bea4e90e7fc686743f))
+- Update to base version [`1.6.4`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/1.6.4) from upstream, original repository. ([f539145](https://github.com/slsfi/granqvist-frontend/commit/f5391451eb3ed264b1228a60d1ac627e352bf5db))
 
 
 
@@ -715,6 +719,7 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[1.6.4-production.1]: https://github.com/slsfi/granqvist-frontend/compare/1.5.7-production.1...1.6.4-production.1
 [1.5.7-production.1]: https://github.com/slsfi/granqvist-frontend/compare/1.5.6-production.1...1.5.7-production.1
 [1.5.6-production.1]: https://github.com/slsfi/granqvist-frontend/compare/1.5.5-production.1...1.5.6-production.1
 [1.5.5-production.1]: https://github.com/slsfi/granqvist-frontend/compare/1.5.4-production.1...1.5.5-production.1
