@@ -8,6 +8,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+
+
+## [1.8.2-production.1] – 2025-08-05
+
 ### Changed
 
 - Update to base version [`1.8.2`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/1.8.2) from upstream, original repository. ([95e1b7f](https://github.com/slsfi/granqvist-frontend/commit/95e1b7fc876953f9b3e4fdb438f06ceb220e15d2))
