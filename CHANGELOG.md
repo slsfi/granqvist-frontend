@@ -8,6 +8,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+### Fixed
+
+- Disable articles in main side menu.
+
 
 
 ## [2.4.2-production.2] – 2025-12-18

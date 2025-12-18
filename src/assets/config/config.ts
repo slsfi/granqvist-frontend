@@ -352,7 +352,7 @@ export const config: Config = {
     mainSideMenu: {
       items: {
         about: true,
-        articles: true,
+        articles: false,
         ebooks: true,
         collections: true,
         mediaCollections: true,
