@@ -8,9 +8,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+
+
+## [2.4.2-production.2] – 2025-12-18
+
 ### Fixed
 
-- Add missing translations to Arabic locale.
+- Add missing translations to Arabic locale. ([392e10e](https://github.com/slsfi/granqvist-frontend/commit/392e10edfcf084a928b170069d1951781d9e8656))
 
 
 
@@ -1303,6 +1307,7 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[2.4.2-production.2]: https://github.com/slsfi/granqvist-frontend/compare/2.4.2-production.1...2.4.2-production.2
 [2.4.2-production.1]: https://github.com/slsfi/granqvist-frontend/compare/2.0.0-production.1...2.4.2-production.1
 [2.0.0-production.1]: https://github.com/slsfi/granqvist-frontend/compare/1.8.2-production.1...2.0.0-production.1
 [1.8.2-production.1]: https://github.com/slsfi/granqvist-frontend/compare/1.6.5-production.1...1.8.2-production.1
