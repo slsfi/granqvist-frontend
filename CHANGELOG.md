@@ -8,10 +8,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+
+
+## [2.4.2-production.1] – 2025-12-18
+
 ### Changed
 
-- Update to base version [`2.4.2`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.4.2) from upstream, original repository.
-- Update Matomo analytics code snippet.
+- Update to base version [`2.4.2`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.4.2) from upstream, original repository. ([501059d](https://github.com/slsfi/granqvist-frontend/commit/501059da7f3022a61720d4b18f6c5835b3b5a7f8))
+- Update Matomo analytics code snippet. ([e8e66da](https://github.com/slsfi/granqvist-frontend/commit/e8e66da44d6c06568430598fc377f3fda22e75dd))
 
 
 
@@ -1295,6 +1299,7 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[2.4.2-production.1]: https://github.com/slsfi/granqvist-frontend/compare/2.0.0-production.1...2.4.2-production.1
 [2.0.0-production.1]: https://github.com/slsfi/granqvist-frontend/compare/1.8.2-production.1...2.0.0-production.1
 [1.8.2-production.1]: https://github.com/slsfi/granqvist-frontend/compare/1.6.5-production.1...1.8.2-production.1
 [1.6.5-production.1]: https://github.com/slsfi/granqvist-frontend/compare/1.6.4-production.1...1.6.5-production.1
