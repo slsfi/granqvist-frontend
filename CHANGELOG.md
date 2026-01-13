@@ -15,6 +15,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 ### Removed
 
 - Code comment from Matomo code snippet in `index.html`.
+- CookieYes code snippet from `index.html`.
 
 
 
