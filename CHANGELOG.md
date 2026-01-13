@@ -8,14 +8,18 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+
+
+## [2.4.2-production.3] – 2026-01-13
+
 ### Fixed
 
-- Disable articles in main side menu.
+- Explicitly disable articles in main side menu. ([12b13a3](https://github.com/slsfi/granqvist-frontend/commit/12b13a326eafab6839a33ac15ae90464528470d4))
 
 ### Removed
 
-- Code comment from Matomo code snippet in `index.html`.
-- CookieYes code snippet from `index.html`.
+- Code comment from Matomo code snippet in `index.html`. ([becba75](https://github.com/slsfi/granqvist-frontend/commit/becba75e7b81868d76bd577e79517ea482f9503d))
+- CookieYes code snippet from `index.html`. ([f016663](https://github.com/slsfi/granqvist-frontend/commit/f0166637577b83f406bd89073eeb0972dd5699cc))
 
 
 
@@ -1316,6 +1320,7 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[2.4.2-production.3]: https://github.com/slsfi/granqvist-frontend/compare/2.4.2-production.2...2.4.2-production.3
 [2.4.2-production.2]: https://github.com/slsfi/granqvist-frontend/compare/2.4.2-production.1...2.4.2-production.2
 [2.4.2-production.1]: https://github.com/slsfi/granqvist-frontend/compare/2.0.0-production.1...2.4.2-production.1
 [2.0.0-production.1]: https://github.com/slsfi/granqvist-frontend/compare/1.8.2-production.1...2.0.0-production.1
