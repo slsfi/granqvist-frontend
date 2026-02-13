@@ -8,9 +8,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+
+
+## [2.4.6-production.1] – 2026-02-13
+
 ### Changed
 
-- Update to base version [`2.4.6`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.4.6) from upstream, original repository.
+- Update to base version [`2.4.6`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.4.6) from upstream, original repository. ([50b4cce](https://github.com/slsfi/granqvist-frontend/commit/50b4cce8aeb21e45b148b4ec5e68093277fb6e36))
 
 
 
@@ -1381,6 +1385,7 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[2.4.6-production.1]: https://github.com/slsfi/granqvist-frontend/compare/2.4.2-production.3...2.4.6-production.1
 [2.4.2-production.3]: https://github.com/slsfi/granqvist-frontend/compare/2.4.2-production.2...2.4.2-production.3
 [2.4.2-production.2]: https://github.com/slsfi/granqvist-frontend/compare/2.4.2-production.1...2.4.2-production.2
 [2.4.2-production.1]: https://github.com/slsfi/granqvist-frontend/compare/2.0.0-production.1...2.4.2-production.1
