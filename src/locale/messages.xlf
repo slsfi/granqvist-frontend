@@ -1821,16 +1821,6 @@
         <source>Innehåll</source>
       </segment>
     </unit>
-    <unit id="TopMenu.Menu">
-      <segment>
-        <source>Meny</source>
-      </segment>
-    </unit>
-    <unit id="TopMenu.Search">
-      <segment>
-        <source>Sök</source>
-      </segment>
-    </unit>
     <unit id="TopMenu.Login">
       <segment>
         <source>Logga in</source>
@@ -1839,6 +1829,16 @@
     <unit id="TopMenu.Logout">
       <segment>
         <source>Logga ut</source>
+      </segment>
+    </unit>
+    <unit id="TopMenu.Menu">
+      <segment>
+        <source>Meny</source>
+      </segment>
+    </unit>
+    <unit id="TopMenu.Search">
+      <segment>
+        <source>Sök</source>
       </segment>
     </unit>
     <unit id="Variants.ChangeVariant">

@@ -2140,7 +2140,7 @@
     <unit id="Site.Subtitle">
       <segment state="initial">
         <source>Webbplatsens undertitel</source>
-        <target></target>
+        <target/>
       </segment>
     </unit>
     <unit id="Site.Title">
@@ -2185,18 +2185,6 @@
         <target>Innehåll</target>
       </segment>
     </unit>
-    <unit id="TopMenu.Menu">
-      <segment state="initial">
-        <source>Meny</source>
-        <target>Meny</target>
-      </segment>
-    </unit>
-    <unit id="TopMenu.Search">
-      <segment state="initial">
-        <source>Sök</source>
-        <target>Sök</target>
-      </segment>
-    </unit>
     <unit id="TopMenu.Login">
       <segment state="initial">
         <source>Logga in</source>
@@ -2207,6 +2195,18 @@
       <segment state="initial">
         <source>Logga ut</source>
         <target>Logga ut</target>
+      </segment>
+    </unit>
+    <unit id="TopMenu.Menu">
+      <segment state="initial">
+        <source>Meny</source>
+        <target>Meny</target>
+      </segment>
+    </unit>
+    <unit id="TopMenu.Search">
+      <segment state="initial">
+        <source>Sök</source>
+        <target>Sök</target>
       </segment>
     </unit>
     <unit id="Variants.ChangeVariant">
