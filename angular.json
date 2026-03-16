@@ -82,6 +82,10 @@
                 {
                   "replace": "src/environments/environment.ts",
                   "with": "src/environments/environment.prod.ts"
+                },
+                {
+                  "replace": "src/app/app.routes.ts",
+                  "with": "src/app/app.routes.generated.ts"
                 }
               ],
               "outputHashing": "all",
@@ -150,34 +154,16 @@
         "extract-i18n": {
           "builder": "ng-extract-i18n-merge:ng-extract-i18n-merge",
           "options": {
+            "builderI18n": "@angular-devkit/build-angular:extract-i18n",
             "buildTarget": "app:build",
             "format": "xlf2",
             "outputPath": "src/locale",
+            "sort": "idAsc",
             "targetFiles": [
               "messages.ar.xlf",
               "messages.en.xlf",
               "messages.sv.xlf"
             ]
-          },
-          "configurations": {
-            "ar": {
-              "outputPath": "src/locale/",
-              "outFile": "messages.ar.xlf",
-              "i18nFormat": "xlf2",
-              "i18nLocale": "ar"
-            },
-            "sv": {
-              "outputPath": "src/locale/",
-              "outFile": "messages.sv.xlf",
-              "i18nFormat": "xlf2",
-              "i18nLocale": "sv"
-            },
-            "en": {
-              "outputPath": "src/locale/",
-              "outFile": "messages.en.xlf",
-              "i18nFormat": "xlf2",
-              "i18nLocale": "en"
-            }
           }
         },
         "test": {
@@ -233,6 +219,10 @@
                 {
                   "replace": "src/environments/environment.ts",
                   "with": "src/environments/environment.prod.ts"
+                },
+                {
+                  "replace": "src/app/app.routes.ts",
+                  "with": "src/app/app.routes.generated.ts"
                 }
               ],
               "buildOptimizer": true
