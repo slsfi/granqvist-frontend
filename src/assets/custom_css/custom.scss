@@ -238,16 +238,6 @@ html[lang="ar"] {
   }
 }
 
-/* Cookiebanner */
-a.cky-banner-element {
-  cursor: pointer;
-  text-decoration: underline;
-}
-#cky-consent,
-#cky-settings-popup {
-  font-family: var(--font-stack-app-base);
-}
-
 page-home {
   .text-content div.site-presentation.markdown.markdown {
     max-width: 700px;
