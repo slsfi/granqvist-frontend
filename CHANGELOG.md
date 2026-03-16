@@ -8,19 +8,23 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+
+
+## [2.6.1-production.1] – 2026-03-16
+
 ### Changed
 
-- Update to base version [`2.6.1`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.6.1) from upstream, original repository.
-- Enable feature based routes and separate cookie policy page in config.
+- Update to base version [`2.6.1`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.6.1) from upstream, original repository. ([085744e](https://github.com/slsfi/granqvist-frontend/commit/085744e66ab12970deadd631397d98fe51b42953))
+- Enable feature based routes and separate cookie policy page in config. ([8da1cd8](https://github.com/slsfi/granqvist-frontend/commit/8da1cd8dfef1e2f10376b11d702b498e7dd063e1))
 
 ### Fixed
 
-- Badge URLs in `README.md`.
-- New translations to `ar` locale.
+- Badge URLs in `README.md`. ([d661833](https://github.com/slsfi/granqvist-frontend/commit/d66183370587f4f073a8d2a980eee78d88dada88))
+- New translations to `ar` locale. ([b68e796](https://github.com/slsfi/granqvist-frontend/commit/b68e79687f350e8c801cfffe6c27dc413ab5a3b4))
 
 ### Removed
 
-- Cookie banner CSS from `custom.scss`.
+- Cookie banner CSS from `custom.scss`. ([5d41f3f](https://github.com/slsfi/granqvist-frontend/commit/5d41f3f5028540677e6b564ae0507ac237192cdc))
 
 
 
@@ -1497,6 +1501,7 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[2.6.1-production.1]: https://github.com/slsfi/granqvist-frontend/compare/2.4.6-production.1...2.6.1-production.1
 [2.4.6-production.1]: https://github.com/slsfi/granqvist-frontend/compare/2.4.2-production.3...2.4.6-production.1
 [2.4.2-production.3]: https://github.com/slsfi/granqvist-frontend/compare/2.4.2-production.2...2.4.2-production.3
 [2.4.2-production.2]: https://github.com/slsfi/granqvist-frontend/compare/2.4.2-production.1...2.4.2-production.2
