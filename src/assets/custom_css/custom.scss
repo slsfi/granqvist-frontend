@@ -301,10 +301,12 @@ html[lang="ar"] {
 }
 
 page-home {
-  .text-content div.site-presentation.markdown.markdown {
-    max-width: 700px;
-    text-align: start;
+  --banner-title-background-color: var(--main-background-color);
+  --banner-title-opacity: 0.8;
+  --text-content-max-width: 1000px;
+  --site-presentation-max-width: 750px;
 
+  .text-content div.site-presentation.markdown.markdown {
     h2 {
       text-align: center;
     }
