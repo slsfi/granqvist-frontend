@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <xliff version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" srcLang="undefined">
   <file id="ngi18n" original="ng.template">
     <unit id="About.FootnotesBackToReference">
@@ -69,7 +70,7 @@
     <unit id="Auth.OrDivider">
       <segment state="initial">
         <source>eller</source>
-        <target>eller</target>
+        <target>or</target>
       </segment>
     </unit>
     <unit id="BasicActions.Cancel">
@@ -123,7 +124,7 @@
     <unit id="BasicActions.SearchEllipsis">
       <segment state="initial">
         <source>Sök ...</source>
-        <target>Search ...</target>
+        <target>Search...</target>
       </segment>
     </unit>
     <unit id="BasicActions.ShowMore">
@@ -387,7 +388,7 @@
     <unit id="Commentary.Manuscript.Title">
       <segment state="initial">
         <source>Manuskriptbeskrivning</source>
-        <target>Manuskriptbeskrivning</target>
+        <target>Manuscript description</target>
       </segment>
     </unit>
     <unit id="Commentary.Manuscript.Type">
@@ -400,6 +401,15 @@
       <segment state="initial">
         <source>Inga kommentarer.</source>
         <target>No comments.</target>
+      </segment>
+    </unit>
+    <unit id="Content.Introduction">
+      <notes>
+        <note category="description">Optional HTML above the content grid. Leave empty to hide this block.</note>
+      </notes>
+      <segment state="initial">
+        <source/>
+        <target/>
       </segment>
     </unit>
     <unit id="DateHistogram.Clear">
@@ -609,7 +619,7 @@
     <unit id="ElasticSearch.LoadingFilters">
       <segment state="initial">
         <source>Ett ögonblick, laddar sökavgränsningar ...</source>
-        <target>Just a moment, loading filters ...</target>
+        <target>Just a moment, loading filters...</target>
       </segment>
     </unit>
     <unit id="ElasticSearch.NewestFirst">
@@ -741,7 +751,7 @@
     <unit id="Facsimiles.ChangeFacsimile">
       <segment state="initial">
         <source>Byt faksimil</source>
-        <target>Select facsimile</target>
+        <target>Change facsimile</target>
       </segment>
     </unit>
     <unit id="Facsimiles.Error">
@@ -759,7 +769,7 @@
     <unit id="Facsimiles.Facsimile">
       <segment state="initial">
         <source>Faksimil</source>
-        <target>Facsimiles</target>
+        <target>Facsimile</target>
       </segment>
     </unit>
     <unit id="Facsimiles.Fullscreen">
@@ -891,7 +901,13 @@
     <unit id="ForgotPassword.EmailRequired">
       <segment state="initial">
         <source>Ange e-postadress.</source>
-        <target>Ange e-postadress.</target>
+        <target>Enter email address.</target>
+      </segment>
+    </unit>
+    <unit id="ForgotPassword.InProgress">
+      <segment state="initial">
+        <source>Skickar länk ...</source>
+        <target>Sending link...</target>
       </segment>
     </unit>
     <unit id="ForgotPassword.RequestFailed">
@@ -999,7 +1015,7 @@
     <unit id="Index.SearchPlaceholder">
       <segment state="initial">
         <source>Sök ...</source>
-        <target>Search ...</target>
+        <target>Search...</target>
       </segment>
     </unit>
     <unit id="Index.ShownRecords">
@@ -1059,7 +1075,7 @@
     <unit id="Language.Undefined">
       <segment state="initial">
         <source>odefinierat</source>
-        <target>Undefined</target>
+        <target>undefined</target>
       </segment>
     </unit>
     <unit id="Legend.Legend">
@@ -1076,26 +1092,26 @@
     </unit>
     <unit id="Login.AccountNeededForAccess">
       <segment state="initial">
-        <source>För att komma åt innehållet i den digitala utgåvan behöver du ett användarkonto.</source>
-        <target>To access the content of the digital edition, you need a user account.</target>
+        <source>För att komma åt innehållet i den digitala utgåvan behöver du ett <pc id="0" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a [routerLink]=&quot;[&apos;/register&apos;]&quot; [queryParams]=&quot;authRedirectNavigationQueryParams&quot;&gt;" dispEnd="&lt;/a&gt;">användarkonto</pc>.</source>
+        <target>To access the content of the digital edition, you need a <pc id="0" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a [routerLink]=&quot;[&apos;/register&apos;]&quot; [queryParams]=&quot;authRedirectNavigationQueryParams&quot;&gt;" dispEnd="&lt;/a&gt;">user account</pc>.</target>
       </segment>
     </unit>
     <unit id="Login.ConsentPrivacyOnly">
       <segment state="initial">
-        <source> Genom att logga in godkänner du <pc id="0" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a [routerLink]=&quot;[&apos;/privacy-policy&apos;]&quot;&gt;" dispEnd="&lt;/a&gt;">dataskyddsbeskrivningen</pc>. </source>
-        <target> By logging in, you accept the <pc id="0" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a [routerLink]=&quot;[&apos;/privacy-policy&apos;]&quot;&gt;" dispEnd="&lt;/a&gt;">privacy policy</pc>. </target>
+        <source>Genom att logga in godkänner du <pc id="0" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a [routerLink]=&quot;[&apos;/privacy-policy&apos;]&quot;&gt;" dispEnd="&lt;/a&gt;">dataskyddsbeskrivningen</pc>.</source>
+        <target>By logging in, you accept the <pc id="0" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a [routerLink]=&quot;[&apos;/privacy-policy&apos;]&quot;&gt;" dispEnd="&lt;/a&gt;">Privacy policy</pc>.</target>
       </segment>
     </unit>
     <unit id="Login.ConsentTermsAndPrivacy">
       <segment state="initial">
-        <source> Genom att logga in godkänner du <pc id="0" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a [routerLink]=&quot;[&apos;/terms&apos;]&quot;&gt;" dispEnd="&lt;/a&gt;">användarvillkoren</pc> och <pc id="1" equivStart="START_LINK_1" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a [routerLink]=&quot;[&apos;/privacy-policy&apos;]&quot;&gt;" dispEnd="&lt;/a&gt;">dataskyddsbeskrivningen</pc>. </source>
-        <target> By logging in, you accept the <pc id="0" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a [routerLink]=&quot;[&apos;/terms&apos;]&quot;&gt;" dispEnd="&lt;/a&gt;">terms of use</pc> and <pc id="1" equivStart="START_LINK_1" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a [routerLink]=&quot;[&apos;/privacy-policy&apos;]&quot;&gt;" dispEnd="&lt;/a&gt;">privacy policy</pc>. </target>
+        <source>Genom att logga in godkänner du <pc id="0" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a [routerLink]=&quot;[&apos;/terms&apos;]&quot;&gt;" dispEnd="&lt;/a&gt;">användarvillkoren</pc> och <pc id="1" equivStart="START_LINK_1" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a [routerLink]=&quot;[&apos;/privacy-policy&apos;]&quot;&gt;" dispEnd="&lt;/a&gt;">dataskyddsbeskrivningen</pc>.</source>
+        <target>By logging in, you accept the <pc id="0" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a [routerLink]=&quot;[&apos;/terms&apos;]&quot;&gt;" dispEnd="&lt;/a&gt;">Terms of use</pc> and <pc id="1" equivStart="START_LINK_1" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a [routerLink]=&quot;[&apos;/privacy-policy&apos;]&quot;&gt;" dispEnd="&lt;/a&gt;">Privacy policy</pc>.</target>
       </segment>
     </unit>
     <unit id="Login.ConsentTermsOnly">
       <segment state="initial">
-        <source> Genom att logga in godkänner du <pc id="0" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a [routerLink]=&quot;[&apos;/terms&apos;]&quot;&gt;" dispEnd="&lt;/a&gt;">användarvillkoren</pc>. </source>
-        <target> By logging in, you accept the <pc id="0" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a [routerLink]=&quot;[&apos;/terms&apos;]&quot;&gt;" dispEnd="&lt;/a&gt;">terms of use</pc>. </target>
+        <source>Genom att logga in godkänner du <pc id="0" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a [routerLink]=&quot;[&apos;/terms&apos;]&quot;&gt;" dispEnd="&lt;/a&gt;">användarvillkoren</pc>.</source>
+        <target>By logging in, you accept the <pc id="0" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a [routerLink]=&quot;[&apos;/terms&apos;]&quot;&gt;" dispEnd="&lt;/a&gt;">Terms of use</pc>.</target>
       </segment>
     </unit>
     <unit id="Login.CreateAccount">
@@ -1134,6 +1150,12 @@
         <target>Forgot password?</target>
       </segment>
     </unit>
+    <unit id="Login.InProgress">
+      <segment state="initial">
+        <source>Loggar in ...</source>
+        <target>Logging in...</target>
+      </segment>
+    </unit>
     <unit id="Login.InvalidCredentials">
       <segment state="initial">
         <source>Fel e-postadress eller lösenord.</source>
@@ -1150,12 +1172,6 @@
       <segment state="initial">
         <source>Lösenord</source>
         <target>Password</target>
-      </segment>
-    </unit>
-    <unit id="Login.PasswordResetSuccess">
-      <segment state="initial">
-        <source>Lösenordet har återställts. Du kan nu logga in med ditt nya lösenord.</source>
-        <target>Your password has been reset. You can now log in with your new password.</target>
       </segment>
     </unit>
     <unit id="Login.RequestFailed">
@@ -1192,6 +1208,12 @@
       <segment state="initial">
         <source>Sekundär meny</source>
         <target>Secondary menu</target>
+      </segment>
+    </unit>
+    <unit id="MainSideMenu.Articles">
+      <segment state="initial">
+        <source>Artiklar</source>
+        <target>Articles</target>
       </segment>
     </unit>
     <unit id="MainSideMenu.CollectionsGroup1">
@@ -1266,6 +1288,12 @@
         <target>Index of works</target>
       </segment>
     </unit>
+    <unit id="MainSideMenu.Indices">
+      <segment state="initial">
+        <source>Register</source>
+        <target>Indices</target>
+      </segment>
+    </unit>
     <unit id="MainSideMenu.Login">
       <segment state="initial">
         <source>Logga in</source>
@@ -1335,7 +1363,7 @@
     <unit id="Manuscripts.ShowNormalized">
       <segment state="initial">
         <source>Visa ändringar inarbetade</source>
-        <target>Visa ändringar inarbetade</target>
+        <target>Show all revisions applied</target>
       </segment>
     </unit>
     <unit id="MediaCollection.AllMediaCollections">
@@ -1854,6 +1882,12 @@
         <target>Something went wrong. We can’t find the page you tried to access. You can go back to the previous page using the browser’s back-button, or you can try to correct the web address in the browser’s address bar.</target>
       </segment>
     </unit>
+    <unit id="PageNotFound.GoToHome">
+      <segment state="initial">
+        <source>Gå till <pc id="0" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a [routerLink]=&quot;[&apos;/&apos;]&quot;&gt;" dispEnd="&lt;/a&gt;">startsidan</pc></source>
+        <target>Go to the <pc id="0" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a [routerLink]=&quot;[&apos;/&apos;]&quot;&gt;" dispEnd="&lt;/a&gt;">home page</pc></target>
+      </segment>
+    </unit>
     <unit id="Password.DoesNotMatch">
       <segment state="initial">
         <source>Lösenorden matchar inte.</source>
@@ -1874,8 +1908,8 @@
     </unit>
     <unit id="Password.TooShort">
       <segment state="initial">
-        <source>Lösenordet är för kort.</source>
-        <target>The password is too short.</target>
+        <source>Lösenordet måste vara minst 12 tecken långt.</source>
+        <target>The password must be at least 12 characters long.</target>
       </segment>
     </unit>
     <unit id="PdfViewer.DownloadPdf">
@@ -1886,8 +1920,8 @@
     </unit>
     <unit id="PdfViewer.NoBrowserSupport">
       <segment state="initial">
-        <source>Din webbläsare stöder inte PDF-filer. Ladda ner PDF:en för att läsa den:</source>
-        <target>Your browser does not support PDFs. Please download the PDF to view it:</target>
+        <source>Ett fel hindrade PDF:en från att laddas, eller så stöder din webbläsare inte PDF-filer. Ladda ner PDF:en för att läsa den:</source>
+        <target>An error prevented the PDF from loading, or your browser does not support PDFs. Please download the PDF to view it:</target>
       </segment>
     </unit>
     <unit id="PdfViewer.Page">
@@ -1935,7 +1969,7 @@
     <unit id="Reference.Permalink">
       <segment state="initial">
         <source>Beständig webbadress</source>
-        <target>Permalink</target>
+        <target>Permanent URL</target>
       </segment>
     </unit>
     <unit id="Reference.Refer">
@@ -2001,25 +2035,25 @@
     <unit id="Register.AcceptPrivacyCheckbox">
       <segment state="initial">
         <source>Jag accepterar dataskyddsbeskrivningen.</source>
-        <target>I accept the privacy policy.</target>
+        <target>I accept the Privacy policy.</target>
       </segment>
     </unit>
     <unit id="Register.AcceptPrivacyRequired">
       <segment state="initial">
         <source>Du måste acceptera dataskyddsbeskrivningen.</source>
-        <target>You must accept the privacy policy.</target>
+        <target>You must accept the Privacy policy.</target>
       </segment>
     </unit>
     <unit id="Register.AcceptTermsCheckbox">
       <segment state="initial">
         <source>Jag accepterar användarvillkoren.</source>
-        <target>I accept the terms of use.</target>
+        <target>I accept the Terms of use.</target>
       </segment>
     </unit>
     <unit id="Register.AcceptTermsRequired">
       <segment state="initial">
         <source>Du måste acceptera användarvillkoren.</source>
-        <target>You must accept the terms of use.</target>
+        <target>You must accept the Terms of use.</target>
       </segment>
     </unit>
     <unit id="Register.AccountSectionHeading">
@@ -2068,6 +2102,12 @@
       <segment state="initial">
         <source>Ange e-postadress.</source>
         <target>Enter email address.</target>
+      </segment>
+    </unit>
+    <unit id="Register.InProgress">
+      <segment state="initial">
+        <source>Skapar konto ...</source>
+        <target>Creating account...</target>
       </segment>
     </unit>
     <unit id="Register.IntendedUsageEducational">
@@ -2145,7 +2185,7 @@
     <unit id="Register.PrivacyLink">
       <segment state="initial">
         <source>Mer information finns i <pc id="0" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a [routerLink]=&quot;[&apos;/privacy-policy&apos;]&quot; target=&quot;_blank&quot;&gt;" dispEnd="&lt;/a&gt;">dataskyddsbeskrivningen</pc>.</source>
-        <target>You can find more information in the <pc id="0" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a [routerLink]=&quot;[&apos;/privacy-policy&apos;]&quot; target=&quot;_blank&quot;&gt;" dispEnd="&lt;/a&gt;">privacy policy</pc>.</target>
+        <target>You can find more information in the <pc id="0" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a [routerLink]=&quot;[&apos;/privacy-policy&apos;]&quot; target=&quot;_blank&quot;&gt;" dispEnd="&lt;/a&gt;">Privacy policy</pc>.</target>
       </segment>
     </unit>
     <unit id="Register.PrivacySummary">
@@ -2157,7 +2197,7 @@
     <unit id="Register.PrivacySummaryHeading">
       <segment state="initial">
         <source>Sammanfattning av dataskyddsbeskrivningen</source>
-        <target>Summary of privacy policy</target>
+        <target>Summary of the Privacy policy</target>
       </segment>
     </unit>
     <unit id="Register.RepeatPasswordLabel">
@@ -2193,19 +2233,19 @@
     <unit id="Register.TermsLink">
       <segment state="initial">
         <source>Fullständiga villkor finns i <pc id="0" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a [routerLink]=&quot;[&apos;/terms&apos;]&quot; target=&quot;_blank&quot;&gt;" dispEnd="&lt;/a&gt;">användarvillkoren</pc>.</source>
-        <target>The full terms and conditions are set out in the <pc id="0" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a [routerLink]=&quot;[&apos;/terms&apos;]&quot; target=&quot;_blank&quot;&gt;" dispEnd="&lt;/a&gt;">terms of Use</pc>.</target>
+        <target>The full terms and conditions are set out in the <pc id="0" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a [routerLink]=&quot;[&apos;/terms&apos;]&quot; target=&quot;_blank&quot;&gt;" dispEnd="&lt;/a&gt;">Terms of use</pc>.</target>
       </segment>
     </unit>
     <unit id="Register.TermsSummary">
       <segment state="initial">
-        <source><pc id="0" equivStart="START_PARAGRAPH" equivEnd="CLOSE_PARAGRAPH" type="other" dispStart="&lt;p&gt;" dispEnd="&lt;/p&gt;">Denna digitala utgåva tillgängliggör upphovs­rättsligt skyddat material. Materialet publiceras online med tillstånd av rätts­innehavarna.</pc><pc id="1" equivStart="START_PARAGRAPH" equivEnd="CLOSE_PARAGRAPH" type="other" dispStart="&lt;p&gt;" dispEnd="&lt;/p&gt;">Utgåvan får användas för <pc id="2" equivStart="START_BOLD_TEXT" equivEnd="CLOSE_BOLD_TEXT" type="fmt" dispStart="&lt;b&gt;" dispEnd="&lt;/b&gt;">privata, pedagogiska och veten­skapliga ändamål</pc>. Du får läsa, studera och utforska innehållet samt citera kortare utdrag i den omfattning som är tillåten enligt lag, under förut­sättning att du anger källan. Text- och data­utvinning på materialet är tillåtet endast för vetenskaplig forskning.</pc><pc id="3" equivStart="START_PARAGRAPH" equivEnd="CLOSE_PARAGRAPH" type="other" dispStart="&lt;p&gt;" dispEnd="&lt;/p&gt;">Det är inte tillåtet att kopiera, dela, återpublicera eller göra texterna eller bilderna tillgängliga på andra plattformar eller tjänster – inte ens för icke-kommersiella ändamål. Materialet får inte heller användas i kommersiellt syfte.</pc></source>
-        <target><pc id="0" equivStart="START_PARAGRAPH" equivEnd="CLOSE_PARAGRAPH" type="other" dispStart="&lt;p&gt;" dispEnd="&lt;/p&gt;">This digital edition makes copyright-protected material available. The material is published online with the permission of the rights holders.</pc><pc id="1" equivStart="START_PARAGRAPH" equivEnd="CLOSE_PARAGRAPH" type="other" dispStart="&lt;p&gt;" dispEnd="&lt;/p&gt;">The edition may be used for <pc id="2" equivStart="START_BOLD_TEXT" equivEnd="CLOSE_BOLD_TEXT" type="fmt" dispStart="&lt;b&gt;" dispEnd="&lt;/b&gt;">personal, educational, and scholarly purposes</pc>. You may read, study, and explore the content, and quote short passages where quotation is permitted by law, provided that the source is cited. Text and data mining of the material is permitted only for scientific research.</pc><pc id="3" equivStart="START_PARAGRAPH" equivEnd="CLOSE_PARAGRAPH" type="other" dispStart="&lt;p&gt;" dispEnd="&lt;/p&gt;">It is not permitted to copy, share, republish, or otherwise make the texts or images available on other platforms or services – not even for non-commercial purposes. The material may not be used for commercial purposes.</pc></target>
+        <source><pc id="0" equivStart="START_PARAGRAPH" equivEnd="CLOSE_PARAGRAPH" type="other" dispStart="&lt;p&gt;" dispEnd="&lt;/p&gt;">Denna digitala utgåva tillgängliggör upphovs­rättsligt skyddat material. Materialet publiceras på nätet med tillstånd av rätts­innehavarna.</pc><pc id="1" equivStart="START_PARAGRAPH" equivEnd="CLOSE_PARAGRAPH" type="other" dispStart="&lt;p&gt;" dispEnd="&lt;/p&gt;">Utgåvan får användas för <pc id="2" equivStart="START_BOLD_TEXT" equivEnd="CLOSE_BOLD_TEXT" type="fmt" dispStart="&lt;b&gt;" dispEnd="&lt;/b&gt;">privata, pedagogiska och veten­skapliga ändamål</pc>. Du får läsa, studera och utforska innehållet samt citera kortare utdrag i den omfattning som är tillåten enligt lag, under förut­sättning att du anger källan. Text- och data­utvinning på materialet är tillåten endast för vetenskaplig forskning.</pc><pc id="3" equivStart="START_PARAGRAPH" equivEnd="CLOSE_PARAGRAPH" type="other" dispStart="&lt;p&gt;" dispEnd="&lt;/p&gt;">Det är inte tillåtet att kopiera, dela, återpublicera eller göra texterna eller bilderna tillgängliga på andra plattformar eller tjänster – inte ens för icke-kommersiella ändamål. Materialet får inte heller användas i kommersiellt syfte.</pc></source>
+        <target><pc id="0" equivStart="START_PARAGRAPH" equivEnd="CLOSE_PARAGRAPH" type="other" dispStart="&lt;p&gt;" dispEnd="&lt;/p&gt;">This digital edition makes copyright-protected material available. The material is published online with the permission of the rights holders.</pc><pc id="1" equivStart="START_PARAGRAPH" equivEnd="CLOSE_PARAGRAPH" type="other" dispStart="&lt;p&gt;" dispEnd="&lt;/p&gt;">The edition may be used for <pc id="2" equivStart="START_BOLD_TEXT" equivEnd="CLOSE_BOLD_TEXT" type="fmt" dispStart="&lt;b&gt;" dispEnd="&lt;/b&gt;">personal, educational, and scholarly purposes</pc>. You may read, study, and explore the content, and quote short passages where quotation is permitted by law, provided that the source is cited. Text and data mining of the material is permitted only for purposes of scholarly research.</pc><pc id="3" equivStart="START_PARAGRAPH" equivEnd="CLOSE_PARAGRAPH" type="other" dispStart="&lt;p&gt;" dispEnd="&lt;/p&gt;">It is not permitted to copy, share, republish, or otherwise make the texts or images available on other platforms or services – not even for non-commercial purposes. The material may not be used for commercial purposes.</pc></target>
       </segment>
     </unit>
     <unit id="Register.TermsSummaryHeading">
       <segment state="initial">
         <source>Sammanfattning av användarvillkoren</source>
-        <target>Summary of the terms of Use</target>
+        <target>Summary of the Terms of use</target>
       </segment>
     </unit>
     <unit id="Register.Title">
@@ -2234,14 +2274,14 @@
     </unit>
     <unit id="ResetPassword.InProgress">
       <segment state="initial">
-        <source>Sparar ditt nya lösenord ...</source>
-        <target>Saving your new password...</target>
+        <source>Sparar lösenord ...</source>
+        <target>Saving password...</target>
       </segment>
     </unit>
     <unit id="ResetPassword.InvalidLink">
       <segment state="initial">
-        <source>Återställningslänken är ogiltig eller har löpt ut.</source>
-        <target>The password reset link is invalid or has expired.</target>
+        <source>Länken för att byta lösenord är ogiltig eller har löpt ut. Du måste beställa en ny länk för att byta lösenord.</source>
+        <target>The password reset link is invalid or has expired. You must request a new link to change the password.</target>
       </segment>
     </unit>
     <unit id="ResetPassword.NoCredentials">
@@ -2264,8 +2304,8 @@
     </unit>
     <unit id="ResetPassword.RequestFailed">
       <segment state="initial">
-        <source>Återställningen av lösenordet misslyckades. Försök igen senare.</source>
-        <target>Password reset failed. Please try again later.</target>
+        <source>Lösenordet kunde inte sparas. Försök igen senare.</source>
+        <target>Failed to save password. Please try again later.</target>
       </segment>
     </unit>
     <unit id="ResetPassword.SubmitButton">
@@ -2276,8 +2316,8 @@
     </unit>
     <unit id="ResetPassword.Success">
       <segment state="initial">
-        <source>Lösenordet har återställts. Du kan nu logga in med ditt nya lösenord.</source>
-        <target>Your password has been reset. You can now log in with your new password.</target>
+        <source>Lösenordet har sparats. Du kan nu logga in med ditt nya lösenord.</source>
+        <target>Your password has been saved. You can now log in with your new password.</target>
       </segment>
     </unit>
     <unit id="ResetPassword.Title">
@@ -2456,7 +2496,7 @@
     </unit>
     <unit id="VerifyEmail.Verifying">
       <segment state="initial">
-        <source>Verifierar din e-postadress ...</source>
+        <source>Verifierar din e-postadress ...</source>
         <target>Verifying your email address...</target>
       </segment>
     </unit>
